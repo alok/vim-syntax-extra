@@ -270,10 +270,6 @@ syn match cDelimiter    "[();\\]"
 syn match cBraces display "[{}]"
 
 
-" Booleans
-syn keyword cBoolean true false TRUE FALSE
-
-
 " Links
 hi def link cFunction Function
 hi def link cIdentifier Identifier
